@@ -1,5 +1,7 @@
-import { ClockComponent } from './common'
+import { ClockComponent, FormComponent, TemperatureComponent, } from './common'
 
 export {
-	ClockComponent
+	ClockComponent,
+	FormComponent,
+	TemperatureComponent,
 }

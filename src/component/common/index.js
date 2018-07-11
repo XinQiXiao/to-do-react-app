@@ -1,5 +1,9 @@
 import ClockComponent from './Clock'
+import FormComponent from './FormComponent'
+import TemperatureComponent from './Temperature'
 
 export {
-	ClockComponent
+	ClockComponent,
+	FormComponent,
+	TemperatureComponent,
 }
