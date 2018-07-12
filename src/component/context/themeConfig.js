@@ -11,7 +11,10 @@ const themes = {
 	}
 }
 
-const ThemeContext = React.createContext(themes.dark)
+const ThemeContext = React.createContext({
+	theme: themes.dark,
+	toggleTheme: () => {}
+})
 
 export {
 	themes,

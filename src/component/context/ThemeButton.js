@@ -6,8 +6,10 @@ function ThemedButton(props){
 	return(
 		<ThemeContext.Consumer>
 			{
-				theme => (
-					<button {...props} style={{backgroundColor: theme.background}}/>
+				({theme, toggleTheme}) => (
+					<button onClick={toggleTheme} style={{backgroundColor: theme.background}}>
+						change toggle theme.
+					</button>
 				)
 			}
 		</ThemeContext.Consumer>
