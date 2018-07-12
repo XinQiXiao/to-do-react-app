@@ -3,6 +3,8 @@ import {
 	MountComponent, NoES6Component, Reconciliation,
 } from './common'
 
+import { ContextComponent, ThemeComponent, } from './context'
+
 export {
 	ClockComponent,
 	FormComponent,
@@ -12,4 +14,6 @@ export {
 	MountComponent,
 	NoES6Component,
 	Reconciliation,
+	ContextComponent,
+	ThemeComponent,
 }

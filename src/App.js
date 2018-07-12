@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 // components
 import { 
   /*ClockComponent,*/ FormComponent, TemperatureComponent, RefComponent, FileInput,
-  MountComponent, NoES6Component, Reconciliation,
+  MountComponent, NoES6Component, Reconciliation, ContextComponent, ThemeComponent,
 } from './component'
 
 // img
@@ -29,6 +29,8 @@ class App extends Component {
           <MountComponent />
           <NoES6Component name="No ES6 "/>
           <Reconciliation />
+          <ContextComponent />
+          <ThemeComponent />
         </div>
       </div>
     )
