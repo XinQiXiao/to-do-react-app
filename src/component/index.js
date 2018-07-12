@@ -1,5 +1,6 @@
 import { 
 	ClockComponent, FormComponent, TemperatureComponent, RefComponent, FileInput,
+	MountComponent,
 } from './common'
 
 export {
@@ -8,4 +9,5 @@ export {
 	TemperatureComponent,
 	RefComponent,
 	FileInput,
+	MountComponent,
 }

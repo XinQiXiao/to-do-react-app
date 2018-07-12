@@ -1,33 +1,33 @@
 import React, { Component } from 'react'
 
-class CustomTextInputPre extends Component{
-	constructor(props){
-		super(props)
+// class CustomTextInputPre extends Component{
+// 	constructor(props){
+// 		super(props)
 
-		// 创建 ref 存储 textInput DOM 元素
-		this.textInput = React.createRef()
-		this._focusTextInput = this._focusTextInput.bind(this)
-	}
+// 		// 创建 ref 存储 textInput DOM 元素
+// 		this.textInput = React.createRef()
+// 		this._focusTextInput = this._focusTextInput.bind(this)
+// 	}
 
-	_focusTextInput(){
-		// 直接使用原生 API 使 text 输入框获得焦点, 注意：通过 "current" 取得 DOM 节点
-		this.textInput.current.focus()
-	}
+// 	_focusTextInput(){
+// 		// 直接使用原生 API 使 text 输入框获得焦点, 注意：通过 "current" 取得 DOM 节点
+// 		this.textInput.current.focus()
+// 	}
 
-	render(){
-		return (
-			<div >
-				<input type="text" ref={this.textInput}/>
-				<input type="button" 
-					value="Focus the text input" 
-					onClick={this._focusTextInput}
-				/>
-			</div>
-		)
-	}
-}
+// 	render(){
+// 		return (
+// 			<div >
+// 				<input type="text" ref={this.textInput}/>
+// 				<input type="button" 
+// 					value="Focus the text input" 
+// 					onClick={this._focusTextInput}
+// 				/>
+// 			</div>
+// 		)
+// 	}
+// }
 
-class CustomTextInput extends React.Component {
+class CustomTextInput extends Component {
   constructor(props) {
     super(props)
     this.textInput = null

@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 // components
 import { 
   ClockComponent, FormComponent, TemperatureComponent, RefComponent, FileInput,
+  MountComponent,
 } from './component'
 
 // img
@@ -25,6 +26,7 @@ class App extends Component {
           <TemperatureComponent />
           <RefComponent />
           <FileInput />
+          <MountComponent />
         </div>
       </div>
     )
