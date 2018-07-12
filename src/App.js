@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 
 // components
-import { ClockComponent, FormComponent, TemperatureComponent, } from './component'
+import { 
+  ClockComponent, FormComponent, TemperatureComponent, RefComponent, FileInput,
+} from './component'
 
 // img
 import logo from './logo.svg' 
@@ -21,6 +23,8 @@ class App extends Component {
           <ClockComponent />
           <FormComponent />
           <TemperatureComponent />
+          <RefComponent />
+          <FileInput />
         </div>
       </div>
     )

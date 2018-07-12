@@ -1,7 +1,11 @@
-import { ClockComponent, FormComponent, TemperatureComponent, } from './common'
+import { 
+	ClockComponent, FormComponent, TemperatureComponent, RefComponent, FileInput,
+} from './common'
 
 export {
 	ClockComponent,
 	FormComponent,
 	TemperatureComponent,
+	RefComponent,
+	FileInput,
 }
