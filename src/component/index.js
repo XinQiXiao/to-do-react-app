@@ -1,6 +1,6 @@
 import { 
 	ClockComponent, FormComponent, TemperatureComponent, RefComponent, FileInput,
-	MountComponent,
+	MountComponent, NoES6Component, Reconciliation,
 } from './common'
 
 export {
@@ -10,4 +10,6 @@ export {
 	RefComponent,
 	FileInput,
 	MountComponent,
+	NoES6Component,
+	Reconciliation,
 }

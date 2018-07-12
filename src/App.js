@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 
 // components
 import { 
-  ClockComponent, FormComponent, TemperatureComponent, RefComponent, FileInput,
-  MountComponent,
+  /*ClockComponent,*/ FormComponent, TemperatureComponent, RefComponent, FileInput,
+  MountComponent, NoES6Component, Reconciliation,
 } from './component'
 
 // img
@@ -21,12 +21,14 @@ class App extends Component {
           <h1 className="app-title">Welcome to React</h1>
         </header>
         <div className="app-content">
-          <ClockComponent />
+          {/*<ClockComponent />*/}
           <FormComponent />
           <TemperatureComponent />
           <RefComponent />
           <FileInput />
           <MountComponent />
+          <NoES6Component name="No ES6 "/>
+          <Reconciliation />
         </div>
       </div>
     )

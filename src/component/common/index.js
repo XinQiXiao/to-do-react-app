@@ -4,6 +4,8 @@ import TemperatureComponent from './Temperature'
 import RefComponent from './RefComponent'
 import FileInput from './FileInput'
 import MountComponent from './MountComponent'
+import NoES6Component from './NoES6Component'
+import Reconciliation from './Reconciliation'
 
 export {
 	ClockComponent,
@@ -12,4 +14,6 @@ export {
 	RefComponent,
 	FileInput,
 	MountComponent,
+	NoES6Component,
+	Reconciliation,
 }
