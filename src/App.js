@@ -7,7 +7,7 @@ import {
   // context
   ContextComponent, ThemeComponent,
   // high advance
-  PortalComponent, ErrorBoundaries,
+  PortalComponent, ErrorBoundaries, WebComponent, HighOrder,
 } from './component'
 
 // img
@@ -38,6 +38,8 @@ class App extends Component {
           <Fragments />
           <PortalComponent />
           <ErrorBoundaries />
+          <WebComponent name="web-component"/>
+          <HighOrder />
         </div>
       </div>
     )
