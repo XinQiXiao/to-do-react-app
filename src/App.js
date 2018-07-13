@@ -3,7 +3,11 @@ import React, { Component } from 'react'
 // components
 import { 
   /*ClockComponent,*/ FormComponent, TemperatureComponent, RefComponent, FileInput,
-  MountComponent, NoES6Component, Reconciliation, ContextComponent, ThemeComponent,
+  MountComponent, NoES6Component, Reconciliation, Fragments,
+  // context
+  ContextComponent, ThemeComponent,
+  // high advance
+  PortalComponent,
 } from './component'
 
 // img
@@ -31,6 +35,8 @@ class App extends Component {
           <Reconciliation />
           <ContextComponent />
           <ThemeComponent />
+          <Fragments />
+          <PortalComponent />
         </div>
       </div>
     )

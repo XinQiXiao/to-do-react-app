@@ -6,6 +6,7 @@ import FileInput from './FileInput'
 import MountComponent from './MountComponent'
 import NoES6Component from './NoES6Component'
 import Reconciliation from './Reconciliation'
+import Fragments from './Fragments'
 
 export {
 	ClockComponent,
@@ -16,4 +17,5 @@ export {
 	MountComponent,
 	NoES6Component,
 	Reconciliation,
+	Fragments,
 }
