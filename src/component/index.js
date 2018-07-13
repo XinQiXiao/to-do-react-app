@@ -7,7 +7,7 @@ import {
 import { ContextComponent, ThemeComponent, } from './context'
 
 // highAdvance
-import { PortalComponent } from './highAdvance'
+import { PortalComponent, ErrorBoundaries, } from './highAdvance'
 
 export {
 	ClockComponent,
@@ -24,4 +24,5 @@ export {
 	ThemeComponent,
 	// high advance
 	PortalComponent,
+	ErrorBoundaries,
 }
