@@ -8,7 +8,7 @@ import { ContextComponent, ThemeComponent, } from './context'
 
 // highAdvance
 import { 
-	PortalComponent, ErrorBoundaries, WebComponent, HighOrder, ForwardingRefs,
+	PortalComponent, ErrorBoundaries, WebComponent, HighOrder, ForwardingRefs, RenderProps,
 } from './highAdvance'
 
 export {
@@ -30,4 +30,5 @@ export {
 	WebComponent,
 	HighOrder,
 	ForwardingRefs,
+	RenderProps,
 }
