@@ -9,7 +9,7 @@ import { ContextComponent, ThemeComponent, } from './context'
 // highAdvance
 import { 
 	PortalComponent, ErrorBoundaries, WebComponent, HighOrder, ForwardingRefs, RenderProps,
-	WithThird,
+	WithThird, Accessibility,
 } from './highAdvance'
 
 export {
@@ -33,4 +33,5 @@ export {
 	ForwardingRefs,
 	RenderProps,
 	WithThird,
+	Accessibility,
 }

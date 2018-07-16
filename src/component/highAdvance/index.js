@@ -5,6 +5,7 @@ import HighOrder from './HigherOrder'
 import ForwardingRefs from './ForwardingRefs'
 import RenderProps from './RenderProps'
 import WithThird from './WithThird'
+import Accessibility from './Accessibility'
 
 export {
 	PortalComponent,
@@ -14,4 +15,5 @@ export {
 	ForwardingRefs,
 	RenderProps,
 	WithThird,
+	Accessibility,
 }
