@@ -4,6 +4,7 @@ import WebComponent from './WebComponent'
 import HighOrder from './HigherOrder'
 import ForwardingRefs from './ForwardingRefs'
 import RenderProps from './RenderProps'
+import WithThird from './WithThird'
 
 export {
 	PortalComponent,
@@ -12,4 +13,5 @@ export {
 	HighOrder,
 	ForwardingRefs,
 	RenderProps,
+	WithThird,
 }
