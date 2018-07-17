@@ -1,18 +1,13 @@
 import React, { Component } from 'react'
+import { BrowserRouter } from 'react-router-dom'
 
 // components
 import { 
-  /*ClockComponent,*/ FormComponent, TemperatureComponent, RefComponent, FileInput,
-  MountComponent, NoES6Component, Reconciliation, Fragments,
-  // context
-  ContextComponent, ThemeComponent,
-  // high advance
-  PortalComponent, ErrorBoundaries, WebComponent, HighOrder, ForwardingRefs, RenderProps,
-  WithThird, Accessibility,
+  BaseLayout
 } from './component'
 
 // img
-import logo from './logo.svg' 
+// import logo from './logo.svg' 
 
 // styles
 import './App.css'
@@ -20,33 +15,9 @@ import './App.css'
 class App extends Component {
   render() {
     return (
-      <div className="app">
-        <header className="app-header">
-          <img src={logo} className="app-logo" alt="logo" />
-          <h1 className="app-title">Welcome to React</h1>
-        </header>
-        <div className="app-content">
-          {/*<ClockComponent />*/}
-          <FormComponent />
-          <TemperatureComponent />
-          <RefComponent />
-          <FileInput />
-          <MountComponent />
-          <NoES6Component name="No ES6 "/>
-          <Reconciliation />
-          <ContextComponent />
-          <ThemeComponent />
-          <Fragments />
-          <PortalComponent />
-          <ErrorBoundaries />
-          <WebComponent name="web-component"/>
-          <HighOrder />
-          <ForwardingRefs />
-          <RenderProps />
-          <WithThird />
-          <Accessibility />
-        </div>
-      </div>
+      <BrowserRouter>
+        <BaseLayout />
+      </BrowserRouter>
     )
   }
 }

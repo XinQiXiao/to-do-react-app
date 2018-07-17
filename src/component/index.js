@@ -12,6 +12,9 @@ import {
 	WithThird, Accessibility,
 } from './highAdvance'
 
+// Layout
+import { BaseLayout } from './layout'
+
 export {
 	ClockComponent,
 	FormComponent,
@@ -34,4 +37,6 @@ export {
 	RenderProps,
 	WithThird,
 	Accessibility,
+	// Layout
+	BaseLayout,
 }
